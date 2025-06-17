@@ -1,5 +1,12 @@
-//Asyncronous - sab sath print hoga like timeout
-//Synchronous - ek ek krky chlty like 1 prompt then 2nd then 3rd
+//Asyncronous - Execution Order	= Skips waiting tasks, continues
+//Synchronous - Execution Order	= Top to bottom, step by step
+
+//Synchronous
+console.log("1");
+console.log("2");
+console.log("3");
+
+//Asyncronous
 console.log("start")
 setTimeout(() => {
     console.log("hey")
