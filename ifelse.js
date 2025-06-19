@@ -4,15 +4,15 @@ if(savings>5000){
         console.log("RoadTrip with Rashmi")
     }
     else{
-        console.log("Date with Rashmi")
+        console.log("Date with Rashmii")
     }
     
 }
 else if (savings>10000){
-    console.log("Date with Rashmi and Neha")
+    console.log("Date with Rashmi and Nehaaa")
 }
 else {
-    console.log("With friends ")
+    console.log("With friendssss ")
 }
 
 
