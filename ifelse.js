@@ -1,6 +1,6 @@
-const savings = 7001
-if(savings>5000){
-    if(savings>7000){
+const savingss = 7001
+if(savingss>5000){
+    if(savingss>7000){
         console.log("RoadTrip with Rashmi")
     }
     else{
@@ -8,7 +8,7 @@ if(savings>5000){
     }
     
 }
-else if (savings>10000){
+else if (savingss>10000){
     console.log("Date with Rashmi and Nehaaa")
 }
 else {
