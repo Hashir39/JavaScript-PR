@@ -14,7 +14,7 @@ fn(); // 3
 
 
 //1. Private Variables
-function createCounter() {
+function createCounterr() {
   let count = 0;
 
   return {
