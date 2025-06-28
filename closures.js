@@ -60,7 +60,7 @@ console.log(double(5)); // 10
 
 
 
-function secretPassword() {
+function secretPasswordd() {
   const password = "abc123";
   return function reveal() {
     return password;
