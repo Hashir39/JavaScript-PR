@@ -29,7 +29,7 @@ function createCounterr() {
   };
 }
 
-const counter = createCounter();
+const counter = createCounterr();
 console.log(counter.increment()); // 1
 console.log(counter.increment()); // 2
 console.log(counter.decrement()); // 1
