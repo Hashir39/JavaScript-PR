@@ -7,7 +7,7 @@ function outerr() {
   };
 }
 
-const fn = outer();
+const fn = outerr();
 fn(); // 1
 fn(); // 2
 fn(); // 3
