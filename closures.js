@@ -1,4 +1,4 @@
-function outer() {
+function outerr() {
   let counter = 0;
 
   return function inner() {
