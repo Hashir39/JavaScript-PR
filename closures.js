@@ -47,7 +47,7 @@ for (var i = 1; i <= 3; i++) {
 
 
 //Interview-Style Closure Question
-function multiplier(x) {
+function multiplierr(x) {
   return function (y) {
     return x * y;
   };
