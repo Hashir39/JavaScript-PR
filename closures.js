@@ -53,7 +53,7 @@ function multiplierr(x) {
   };
 }
 
-const double = multiplier(2);
+const double = multiplierr(2);
 console.log(double(5)); // 10
 
 
