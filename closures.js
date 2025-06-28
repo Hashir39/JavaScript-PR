@@ -67,5 +67,5 @@ function secretPasswordd() {
   };
 }
 
-const getPassword = secretPassword();
+const getPassword = secretPasswordd();
 console.log(getPassword()); // "abc123"
