@@ -72,3 +72,24 @@ setTimeout(() => {
 //Callback hell = deeply nested callbacks.
 //Solution: Use Promises or async/await.
 
+
+
+
+
+// Handling Errors in Callbacks
+function fetchData(callback) {
+  const error = false; // try changing this to true
+
+  if (error) {
+    callback("Something went wrong", null);
+  } else {
+    callback(null, { id: 1, name: "Hashir" });
+  }
+}
+
+fetchData((err, data) => {
+  if (err) return console.error(err);
+  console.log(data);
+});
+
+
