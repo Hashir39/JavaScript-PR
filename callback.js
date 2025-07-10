@@ -31,3 +31,12 @@ document.getElementById("btn").addEventListener("click", function () {
   alert("Button clicked!");
 });
 
+
+
+
+//Callback in Array Methods
+const nums = [1, 2, 3, 4];
+
+nums.forEach(function (num) {
+  console.log(num * 2);
+});
