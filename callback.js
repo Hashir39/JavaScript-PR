@@ -22,3 +22,12 @@ setTimeout(() => {
 
 console.log("After");
 
+
+
+
+
+//Callbacks in Event Listeners
+document.getElementById("btn").addEventListener("click", function () {
+  alert("Button clicked!");
+});
+
