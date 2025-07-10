@@ -54,3 +54,21 @@ function add(x, y) {
 }
 
 console.log(calculate(5, 3, add)); // 8
+
+
+
+
+
+// Nested Callbacks / Callback Hell
+setTimeout(() => {
+  console.log("1");
+  setTimeout(() => {
+    console.log("2");
+    setTimeout(() => {
+      console.log("3");
+    }, 1000);
+  }, 1000);
+}, 1000);
+//Callback hell = deeply nested callbacks.
+//Solution: Use Promises or async/await.
+
