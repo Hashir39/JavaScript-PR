@@ -9,3 +9,16 @@ function processUserInput(callback) {
 }
 
 processUserInput(greet);
+
+
+
+
+//Callback with setTimeout()
+console.log("Before");
+
+setTimeout(() => {
+  console.log("This runs after 2 seconds");
+}, 2000);
+
+console.log("After");
+
