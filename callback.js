@@ -40,3 +40,17 @@ const nums = [1, 2, 3, 4];
 nums.forEach(function (num) {
   console.log(num * 2);
 });
+
+
+
+
+//Custom Callback Function
+function calculate(a, b, operation) {
+  return operation(a, b);
+}
+
+function add(x, y) {
+  return x + y;
+}
+
+console.log(calculate(5, 3, add)); // 8
