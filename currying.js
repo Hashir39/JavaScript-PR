@@ -13,3 +13,11 @@ function curriedAdd(a) {
   };
 }
 console.log(curriedAdd(1)(2)(3)); // 6
+
+
+
+// Arrow Function Version
+const curriedAdd = a => b => c => a + b + c;
+
+console.log(curriedAdd(1)(2)(3)); // 6
+
