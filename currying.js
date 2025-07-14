@@ -43,3 +43,40 @@ const result = items.filter(filterByCategory);
 console.log(result); // [{ name: 'JS Book', category: 'books' }]
 
 
+//Currying vs Partial Application
+//Currying: One argument at a time
+//Partial Application: Pre-fill some arguments
+
+// Partial Application
+function multiply(a, b, c) {
+  return a * b * c;
+}
+
+const partialMultiply = multiply.bind(null, 2); // Fix 'a' = 2
+console.log(partialMultiply(3, 4)); // 24
+
+
+function curry(fn) {
+  return function curried(...args) {
+    if (args.length >= fn.length) {
+      return fn.apply(this, args);
+    } else {
+      return function(...next) {
+        return curried(...args, ...next);
+      };
+    }
+  };
+}
+
+// Example
+function sum(a, b, c) {
+  return a + b + c;
+}
+
+const curriedSum = curry(sum);
+console.log(curriedSum(1)(2)(3)); // 6
+console.log(curriedSum(1, 2)(3)); // 6
+console.log(curriedSum(1)(2, 3)); // 6
+
+
+
