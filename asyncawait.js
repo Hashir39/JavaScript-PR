@@ -1,5 +1,5 @@
 async function weeater(){
-    let weather1 = new Promise((res,rej)=>{
+    let weather = new Promise((res,rej)=>{
         setTimeout(() => {
             res("Weeather 1 ")
         }, 1000);
