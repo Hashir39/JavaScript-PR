@@ -10,7 +10,7 @@ async function weeater(){
         }, 2000);
     })
 
-    console.log("Fetching weather 1")
+    console.log("Fetching weather")
     let weath1 = await weeather
     console.log(weath1)
     console.log("Fetching weeather 2")
