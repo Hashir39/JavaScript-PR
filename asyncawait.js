@@ -18,7 +18,7 @@ async function weeaterr(){
     console.log(weath2)
     return [weath1,weath2]
 }
-let a = weeater()
+let a = weeaterr()
 a.then((value)=>{
     console.log(value)
 })
