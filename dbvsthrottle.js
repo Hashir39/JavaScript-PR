@@ -37,4 +37,12 @@ function throttle(func, interval) {
 }
 
 
+//Example
+const handleScroll = throttle(() => {
+  console.log('Scrolled');
+}, 300);
+
+window.addEventListener('scroll', handleScroll);
+
+
 
