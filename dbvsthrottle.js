@@ -45,4 +45,7 @@ const handleScroll = throttle(() => {
 window.addEventListener('scroll', handleScroll);
 
 
+//Use Cases: - scrolling , windows resizing , mouse moving , button spamming
+
+
 
