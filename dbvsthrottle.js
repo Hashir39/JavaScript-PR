@@ -24,6 +24,17 @@ input.addEventListener('input', search);
 
 //Throttle - Ensures a function runs at most once every specified interval, even if the event keeps firing.
 
+//Syntax
+function throttle(func, interval) {
+  let lastTime = 0;
+  return function (...args) {
+    const now = Date.now();
+    if (now - lastTime >= interval) {
+      lastTime = now;
+      func.apply(this, args);
+    }
+  };
+}
 
 
 
