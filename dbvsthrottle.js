@@ -22,5 +22,8 @@ const search = debounce(() => {
 input.addEventListener('input', search);
 
 
+//Throttle - Ensures a function runs at most once every specified interval, even if the event keeps firing.
+
+
 
 
