@@ -5,7 +5,7 @@
 //CALL STACK — The Synchronous Engine
 //The call stack is where JavaScript keeps track of function calls.
 
-function gret() {
+function greeet() {
   console.log("Hello");
 }
 
