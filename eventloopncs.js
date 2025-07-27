@@ -9,7 +9,7 @@ function greet() {
   console.log("Hello");
 }
 
-function staart() {
+function start() {
   greet(); // pushed to stack
   console.log("Start done");
 }
