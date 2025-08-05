@@ -1,7 +1,7 @@
 function outerr() {
   let counter = 0;
 
-  return function innerr() {
+  return function inerr() {
     counter++;
     console.log(counter);
   };
