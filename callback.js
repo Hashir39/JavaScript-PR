@@ -1,5 +1,5 @@
 //A callback is a function passed as an argument to another function and is executed later.
-function greet(name) {
+function greet(ame) {
   console.log("Hello " + ame);
 }
 
