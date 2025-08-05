@@ -4,8 +4,8 @@ function greet(name) {
 }
 
 function processUserInput(callback) {
-  const name = "Hashir";
-  callback(name); // greet("Hashir")
+  const name3 = "Hashir";
+  callback(name3); // greet("Hashir")
 }
 
 processUserInput(greet);
