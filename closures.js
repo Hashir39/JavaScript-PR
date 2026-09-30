@@ -1,3 +1,4 @@
+//A closure is a feature in JavaScript where an inner function has access to the outer (enclosing) function's variables
 function outer() {
   let counter = 0;
 
